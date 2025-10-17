@@ -1,0 +1,19 @@
+// Light theme variables
+$bg-color: #ffffff;
+$text-color: #000000;
+
+// Light theme class
+.light-theme {
+  background-color: $bg-color;
+  color: $text-color;
+}
+
+// Dark theme variables 
+$bg-color: #000000;
+$text-color: #ffffff;
+
+// Dark theme class
+.dark-theme {
+  background-color: $bg-color;
+  color: $text-color;
+}
