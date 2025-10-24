@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Universal Selector with :hover</title>
+  <style>
+    
+    * {
+      transition: background-color 0.3s ease;
+    }
+
+    *:hover {
+      background-color: rgb(123, 7, 65);
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+    }
+
+    h1, p, button, div {
+      margin-bottom: 15px;
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hover Over Any Element!</h1>
+  <p>This paragraph will change color when you hover over it.</p>
+  <div>This is a div element.</div>
+  <button>Hover Me!</button>
+</body>
+</html>
