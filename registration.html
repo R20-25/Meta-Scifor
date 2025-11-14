@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foundation Registration Form</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.9.0/dist/css/foundation.min.css">
+</head>
+<body>
+
+<div class="grid-container">
+  <div class="grid-x grid-padding-x align-center">
+    <div class="cell medium-6">
+
+      <h3 class="text-center">Registration Form</h3>
+
+      <form>
+        <label>Full Name
+          <input type="text" placeholder="Enter your full name" required>
+        </label>
+
+        <label>Mobile Number
+          <input type="number" placeholder="Enter mobile number" required>
+        </label>
+
+    
+        <label>Email
+          <input type="email" placeholder="Enter your email" required>
+        </label>
+
+        <label>Password
+          <input type="password" placeholder="Enter password" required>
+        </label>
+
+        <!-- Gender -->
+        <fieldset class="fieldset">
+          <legend>Gender</legend>
+
+          <input type="radio" name="gender" value="male" id="male">
+          <label for="male">Male</label>
+
+          <input type="radio" name="gender" value="female" id="female">
+          <label for="female">Female</label>
+
+          <input type="radio" name="gender" value="other" id="other">
+          <label for="other">Other</label>
+        </fieldset>
+
+        <label>
+          <input type="checkbox" required>
+          I agree to the terms & conditions
+        </label>
+
+        <button type="submit" class="button expanded primary">Register</button>
+
+      </form>
+
+    </div>
+  </div>
+</div>
+
+<!-- Foundation JS -->
+<script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.9.0/dist/js/foundation.min.js"></script>
+
+</body>
+</html>
