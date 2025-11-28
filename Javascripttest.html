@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary</title>
+</head>
+<body>
+
+<h2>Loan Eligibility Check</h2>
+<p id="result"></p>
+
+<script>
+    let age = 25;
+    let salary = 30000;
+
+    let result = "";
+
+    if (age > 21 && salary > 20000) {
+        result = "Eligible for loan";
+    } else {
+        result = "Not eligible for loan";
+    }
+
+    document.getElementById("result").innerText = result;
+</script>
+
+</body>
+</html>
