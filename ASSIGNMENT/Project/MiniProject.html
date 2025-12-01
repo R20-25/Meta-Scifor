@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resturant </title>
+    <link rel="stylesheet" href="MiniProject.css">
+</head>
+<body>
+    <nav class="navbar">
+    <h2 class="logo">Tasty Bites</h2>
+
+    <!-- Hamburger Icon -->
+    <div class="menu-btn" onclick="toggleMenu()">☰</div>
+
+    <!-- Desktop Menu -->
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- Mobile Dropdown Menu -->
+<div class="mobile-menu" id="mobileMenu">
+    <a href="#">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+</div>
+
+    <section class="hero">
+        <div class="content">
+            <h1>Welcome to Tasty Bites</h1>
+            <p>Delicious food that brings joy to every bite.</p>
+        </div>
+    </section>
+    <section id="menu" class="menu-section">
+        <h2>Our Menu</h2>
+        <div class="menu-container">
+            <div class="card">
+                <img src="https://tse1.mm.bing.net/th/id/OIP.ZpVOIZYsNfhdfSlUqiSD4AHaHa?pid=Api&P=0&h=220" alt="Food">
+                <h3>Momos</h3>
+                <p>₹99</p>
+            </div>
+            <div class="card">
+                <img src="https://tse3.mm.bing.net/th/id/OIP.IaJL2cyFvylfDH3W41gzNwHaE8?pid=Api&P=0&h=220" alt="Food">
+                <h3>Cheese Pizza</h3>
+                <p>₹299</p>
+            </div>
+            <div class="card">
+                <img src="https://tse4.mm.bing.net/th/id/OIP.W4eOfQ1VvSAbhXWT3hHCNQHaHa?pid=Api&P=0&h=220" alt="Food">
+                <h3>Burger</h3>
+                <p>₹199</p>
+            </div>
+            <div class="card">
+                <img src="https://tse3.mm.bing.net/th/id/OIP.Xp2RQVjyCr3kN1G8VhcK_wHaE_?pid=Api&P=0&h=220" alt="Food">
+                <h3>Samosa</h3>
+                <p>₹69</p>
+            </div>
+           
+        </div>
+
+    </section>
+
+    <section class="table-section">
+        <h2>Special Dishes</h2>
+
+        <table>
+            <tr>
+                <th>Dish</th>
+                <th>Ingredients</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Paneer Tikka</td>
+                <td>Paneer, Spices, Lemon</td>
+                <td>₹299</td>
+            </tr>
+            <tr>
+                <td>Grilled Sandwich</td>
+                <td>Bread, Veggies, Cheese</td>
+                <td>₹149</td>
+            </tr>
+            <tr>
+                <td>Veg Biryani</td>
+                <td>Rice, Veggies, Masala</td>
+                <td>₹199</td>
+            </tr>
+        </table>
+    </section>
+
+     <section class="feedback">
+        <h2>Customer Feedback</h2>
+
+        <blockquote>“Amazing food and the best service. Highly recommended!”</blockquote>
+        <blockquote>“Loved the ambience and taste. Worth every penny.”</blockquote>
+        <blockquote>“My go-to place for fresh and delicious meals!”</blockquote>
+    </section>
+    
+     <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="tel" placeholder="Phone Number" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+</body>
+</html>
